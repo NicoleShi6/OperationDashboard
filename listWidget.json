@@ -1,0 +1,17 @@
+{
+  "type": "Widget",
+  "title": "List Widget For 2017 Vit Program",
+  "description": "List Widget test-2017 Vit Program",
+  "thumbnailPath": "icon.png",
+  "useDataFromView": true,
+  "runtime": {
+    "path": "listWidget.html"
+  },
+  "configuration": {
+    "path": "listWidgetConfig.html",
+    "requireDataSource": true,
+    "showDescriptionInput": true,
+    "supportFeatureActions": true
+  },
+  "credits": "By Esri (http://www.esri.com) Edited"
+}

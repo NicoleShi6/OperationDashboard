@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="form-group">
+    <label>Display Field:</label>
+    <select data-dojo-type="dijit/form/Select" data-dojo-attach-point="displayFieldCombo" class="form-control" data-dojo-attach-event="onChange:displayFieldChanged"></select>
+  </div>
+</div>
+
+
+
+<!--3 aspect of Dijit template system:variable substitution, attach points, and event attachments-->
+<!--???attach point: tit tells the template render that when a DOM element is created with a data-dojo-attach-point attribute defined, to set the value of that attribute as a property of yur widget to be a reference to the DOM element created-->>
+<!--event attachment: the DIjit template system gives a way of attaching native DOM events to methods in your customer widget. This is a comma-delimited string of key/value pairs(seperated by colon; the key is native DOM event to attach a handler to, and the value is the name of your widget's method to executed when that event is fired) example is as below-->>
+<!--data-tojo-attach-event="onmouseenter:_onHover, onmouseleave:_onUnhover, ondijitclick:_onClick"-->>
